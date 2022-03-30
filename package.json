@@ -1,0 +1,19 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "js hexlet project 1",
+  "main": "no",
+  "scripts": {
+    "test": "test"
+  },
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "yes"
+  },
+  "author": "velibegov ruslan",
+  "license": "MIT"
+}
