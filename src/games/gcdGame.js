@@ -5,7 +5,9 @@ export const QUESTION = 'Find the greatest common divisor of given numbers.';
 const MAX_VALUE = 30;
 
 export function getGameData() {
-  return `${getRandomNumber(MAX_VALUE)} ${getRandomNumber(MAX_VALUE)}`;
+  return `${+getRandomNumber(MAX_VALUE) + 1} ${
+    +getRandomNumber(MAX_VALUE) + 1
+  }`;
 }
 
 export function gcdGame(data) {
@@ -17,7 +19,7 @@ export function gcdGame(data) {
       second %= first;
     }
   }
-  return String(first + second);
+  return String(+first + +second);
 }
 
 export default gcdGame;
