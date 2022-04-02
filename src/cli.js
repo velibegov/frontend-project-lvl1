@@ -14,7 +14,7 @@ export const greet = () => {
   console.log(`${GREETING}${playerName}!`);
 };
 
-export const getRandomNumber = (maxValue) => Math.round(Math.random() * maxValue) + 1;
+export const getRandomNumber = (maxValue) => Math.round(Math.random() * maxValue);
 
 export const getQuestion = (data) => console.log(QUESTION + data);
 

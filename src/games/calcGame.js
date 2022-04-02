@@ -19,13 +19,13 @@ export function calcGame(data) {
   let result = 0;
   switch (expressionParts[1]) {
     case '+':
-      result = expressionParts[0] + expressionParts[2];
+      result = +expressionParts[0] + +expressionParts[2];
       break;
     case '-':
-      result = expressionParts[0] - expressionParts[2];
+      result = +expressionParts[0] - +expressionParts[2];
       break;
     case '*':
-      result = expressionParts[0] * expressionParts[2];
+      result = +expressionParts[0] * +expressionParts[2];
       break;
     default:
   }
